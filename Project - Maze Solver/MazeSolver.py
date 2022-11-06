@@ -126,7 +126,7 @@ class MazeSolver(SearchProblem) :
             self.board[x][y] = '.'  #draw thw breadcrums
 
 def main():
-    ms = MazeSolver('D:/rahulcomp/temp/maze_boards/3.txt')
+    ms = MazeSolver('D:/parthcomp/temp/maze_boards/3.txt')
     ms.displayBoard()
     ms.solve()
     ms.displayBoard()
